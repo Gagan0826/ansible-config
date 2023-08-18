@@ -1,0 +1,8 @@
+- name: Install Docker, Minikube, and kubectl
+  hosts: nodes
+  become: true
+  roles: 
+    - install_dependencies
+    - install_docker
+    - install_minikube
+    - install_kubectl
