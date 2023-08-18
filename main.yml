@@ -6,3 +6,4 @@
     - install_docker
     - install_minikube
     - install_kubectl
+    - install_mysql

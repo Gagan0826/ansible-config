@@ -1,0 +1,11 @@
+---
+# tasks file for install_mysql
+- name: Install MySQL server (for Ubuntu/Debian)
+  apt:
+    name: mysql-server
+    state: present
+
+- name: Start MySQL service
+  service:
+    name: mysql
+    state: started
